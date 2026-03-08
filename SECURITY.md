@@ -21,4 +21,13 @@ The full security model is documented in:
 
 ## Reporting
 
-This repository does not yet publish a dedicated private security contact in-document. Until a formal process is added, avoid posting exploitable details publicly before maintainers have time to assess the issue.
+Please use GitHub private vulnerability reporting when you believe you have found a security issue in `mcp-fileops`.
+
+Recommended process:
+
+1. open the repository Security tab
+2. create a private vulnerability report or security advisory draft
+3. include impact, affected paths, reproduction steps, and any suggested mitigation
+4. avoid opening a public issue for exploitable findings before maintainers respond
+
+If private reporting is temporarily unavailable, contact the maintainer through GitHub and avoid publishing exploit details until a fix or mitigation exists.

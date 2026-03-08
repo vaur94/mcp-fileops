@@ -21,4 +21,13 @@ Detayli guvenlik modeli su dosyalarda aciklanir:
 
 ## Bildirim
 
-Bu depoda henuz dokuman icinde tanimlanmis ozel bir guvenlik bildirim kanali yoktur. Resmi bir surec eklenene kadar, istismar edilebilir detaylari erken asamada herkese acik sekilde paylasmaktan kacin.
+`mcp-fileops` icin guvenlik acigi buldugunuzu dusunuyorsaniz, GitHub private vulnerability reporting yolunu kullanin.
+
+Onerilen surec:
+
+1. repository Security sekmesini acin
+2. private vulnerability report veya security advisory taslagi olusturun
+3. etkiyi, etkilenen yolları, tekrar adimlarini ve varsa cozum onerilerini ekleyin
+4. exploitable bulgular icin maintainer yanit vermeden public issue acmayin
+
+Private reporting gecici olarak kullanilamiyorsa, maintainer ile GitHub uzerinden iletisime gecin ve bir duzeltme veya azaltma hazirlanana kadar exploit detaylarini herkese acik paylasmayin.
