@@ -51,10 +51,42 @@ Explicitly out of scope for the first implementation pass:
 - [Tool Inventory](./docs/tools.md)
 - [Configuration](./docs/config.md)
 - [Security Model](./docs/security.md)
+- [Integration Guide](./docs/integrations.md)
 - [mcpbase Compatibility](./docs/mcpbase-compatibility.md)
 - [Execution Plan](./docs/plan.md)
 - [First Vertical Slice](./docs/slices/0001-get-path-info.md)
 - [Decision 0001](./docs/decisions/0001-foundation-and-scope.md)
+
+## Quick Start
+
+The fastest reliable path today is a local checkout setup.
+
+Requirements:
+
+- Node.js `>=22.14.0`
+- `npm`
+
+1. Clone the repository.
+2. Run the setup script.
+3. Point your MCP client at the generated stdio command.
+
+```bash
+git clone https://github.com/vaur94/mcp-fileops.git
+cd mcp-fileops
+./scripts/setup-local.sh /absolute/project/root ./mcp-fileops.config.json
+```
+
+This prepares a local build and prints the exact command to register in your MCP client:
+
+```bash
+node /absolute/path/to/mcp-fileops/bin/cli.js --config /absolute/path/to/mcp-fileops.config.json
+```
+
+Pass an absolute target repository root as the first script argument if you want to scope access to a different directory.
+
+## Easy Client Integration
+
+For `OpenCode`, `Codex`, and `Antigravity`, the important part is the same stdio launch command plus a config file that sets `security.roots` correctly. The client-specific walkthroughs live in [`docs/integrations.md`](./docs/integrations.md).
 
 ## Implemented tools
 
