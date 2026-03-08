@@ -1,20 +1,20 @@
 # mcp-fileops
 
-> English | [Turkce](./README.tr.md)
+> [English](./README.md) | Turkce
 
-`mcp-fileops` is a focused MCP filesystem server for AI coding agents. It runs over `stdio`, is built on top of `@vaur94/mcpbase`, and ships a safe, deny-by-default file operations surface for real repositories.
+`mcp-fileops`, AI kodlama ajanlari icin tasarlanmis, guvenli dosya sistemi islemleri saglayan bir MCP sunucusudur. `@vaur94/mcpbase` uzerine kuruludur, `stdio` ile calisir ve varsayilan olarak kapali guvenlik modeli kullanir.
 
-## ✨ Highlights
+## ✨ Ozet
 
-- full v1 stdio tool surface is implemented and tested
-- strict root allowlist security model
-- shared filesystem and policy layers separated from MCP tool definitions
-- unit, integration, protocol, coverage, and CI verification in place
-- bilingual repository documentation in English and Turkish
+- tam v1 stdio arac yuzeyi implemente edildi
+- kok dizin izin listesi ile siki guvenlik modeli var
+- dosya sistemi servisleri ile MCP arac tanimlari ayrik tutuluyor
+- unit, integration, protocol ve CI dogrulamalari mevcut
+- tum ana dokumantasyon Ingilizce ve Turkce olarak sunuluyor
 
-## 🚀 Quick Start
+## 🚀 Hizli Baslangic
 
-Requirements:
+Gereksinimler:
 
 - Node.js `>=22.14.0`
 - `npm >=10`
@@ -25,22 +25,22 @@ cd mcp-fileops
 ./scripts/setup-local.sh /absolute/project/root ./mcp-fileops.config.json
 ```
 
-The setup script:
+Bu script:
 
-- installs dependencies with `npm ci`
-- builds the project with `npm run build`
-- creates a config file if it does not already exist
-- prints the exact stdio command for your MCP client
+- `npm ci` ile bagimliliklari kurar
+- `npm run build` ile projeyi derler
+- config dosyasi yoksa olusturur
+- MCP istemcisine gireceginiz stdio komutunu yazar
 
-Expected launch command:
+Beklenen calistirma komutu:
 
 ```bash
 node /absolute/path/to/mcp-fileops/bin/cli.js --config /absolute/path/to/mcp-fileops.config.json
 ```
 
-## 🧰 Implemented Tools
+## 🧰 Uygulanan Araclar
 
-Read-only tools:
+Salt-okunur araclar:
 
 - `list_directory`
 - `get_path_info`
@@ -49,7 +49,7 @@ Read-only tools:
 - `find_paths`
 - `search_text`
 
-Mutating tools:
+Degistirici araclar:
 
 - `write_file`
 - `replace_in_file`
@@ -57,17 +57,17 @@ Mutating tools:
 - `create_directory`
 - `move_path`
 
-## 🛡️ Core Guarantees
+## 🛡️ Temel Garantiler
 
-- deny by default
-- access only within configured absolute roots
-- no shell execution
-- no file-content logging by default
-- `stdio` only in v1
+- varsayilan olarak tum erisim kapali
+- erisim yalnizca tanimli mutlak kok dizinlerde
+- shell execution yok
+- varsayilan olarak dosya icerigi loglanmaz
+- v1 kapsami yalnizca `stdio`
 
-## 📚 Documentation
+## 📚 Dokumantasyon
 
-Repository docs are now split cleanly by language.
+Depo dokumantasyonu diller bazinda net sekilde ayrildi.
 
 English:
 
@@ -82,7 +82,7 @@ English:
 - [Development](./docs/en/development.md)
 - [mcpbase compatibility](./docs/en/mcpbase-compatibility.md)
 
-Turkish:
+Turkce:
 
 - [Dokumantasyon ana sayfasi](./docs/README.tr.md)
 - [Baslangic rehberi](./docs/tr/getting-started.md)
@@ -95,9 +95,9 @@ Turkish:
 - [Gelistirme](./docs/tr/development.md)
 - [mcpbase uyumlulugu](./docs/tr/mcpbase-compatibility.md)
 
-## 🧪 Verification
+## 🧪 Dogrulama
 
-Primary validation commands:
+Temel komutlar:
 
 ```bash
 npm run format:check
@@ -108,12 +108,12 @@ npm run test:protocol
 npm run ci:check
 ```
 
-CI runs on pushes to `main` and on pull requests via `.github/workflows/ci.yml`.
+CI, `.github/workflows/ci.yml` uzerinden `main` branch push ve pull request olaylarinda calisir.
 
-## 🔗 Related Files
+## 🔗 Ilgili Dosyalar
 
-- [Security policy](./SECURITY.md)
-- [Contributing guide](./CONTRIBUTING.md)
-- [Release notes policy](./RELEASE.md)
-- [Changelog](./CHANGELOG.md)
-- [Agent context](./AGENTS.md)
+- [Guvenlik politikasi](./SECURITY.tr.md)
+- [Katki rehberi](./CONTRIBUTING.tr.md)
+- [Surum politikasi](./RELEASE.tr.md)
+- [Degisiklik gunlugu](./CHANGELOG.tr.md)
+- [Ajan baglam dokumani](./AGENTS.tr.md)
