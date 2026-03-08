@@ -1,0 +1,57 @@
+name: Hata bildirimi
+description: MCP sunucusu, dokumantasyon veya repo otomasyonundaki tekrar uretilebilir bir problemi bildirin.
+title: 'bug: '
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hata bildirimi icin tesekkurler. Lutfen problemin yeniden uretilebilmesi icin yeterli detay ekleyin.
+  - type: input
+    id: summary
+    attributes:
+      label: Ozet
+      description: Ne bozuk?
+      placeholder: Izinli root icindeki gecerli bir yol sunucu tarafinda reddediliyor
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ortam
+      description: Runtime ve istemci detaylari
+      placeholder: |
+        OS: Ubuntu 24.04
+        Node.js: 22.14.0
+        npm: 10.x
+        Client: OpenCode / Codex / Antigravity / custom
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Tekrar adimlari
+      placeholder: |
+        1. security.roots icinde ... configini kullan
+        2. Sunucuyu ... ile baslat
+        3. read_file cagrisi yap ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Beklenen davranis
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Gercek davranis
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Loglar veya ciktı
+      render: shell

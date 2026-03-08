@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose an improvement to the product, docs, or repository automation.
+title: 'feat: '
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the workflow gap clearly. Requests that align with the security model and v1 scope are easier to evaluate.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What workflow is currently missing or painful?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: impact
+    attributes:
+      label: Security or compatibility impact
+      description: Mention root-boundary, read-only, transport, or client compatibility concerns if relevant.

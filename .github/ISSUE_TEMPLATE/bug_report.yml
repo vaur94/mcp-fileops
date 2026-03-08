@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible problem with the MCP server, docs, or repository automation.
+title: 'bug: '
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please include enough detail for a maintainer to reproduce the issue.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken?
+      placeholder: The server rejects a valid path inside an allowed root
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Runtime and client details
+      placeholder: |
+        OS: Ubuntu 24.04
+        Node.js: 22.14.0
+        npm: 10.x
+        Client: OpenCode / Codex / Antigravity / custom
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Configure security.roots with ...
+        2. Start the server with ...
+        3. Call read_file with ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      render: shell

@@ -1,0 +1,32 @@
+name: Ozellik istegi
+description: Urune, dokumantasyona veya repo otomasyonuna yonelik bir iyilestirme onerisi sunun.
+title: 'feat: '
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lutfen is akisi boslugunu net sekilde anlatin. Guvenlik modeli ve v1 kapsami ile uyumlu talepler daha kolay degerlendirilir.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem tanimi
+      description: Su anda hangi is akisi eksik ya da zorlayici?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Onerilen cozum
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Dusunulen alternatifler
+  - type: textarea
+    id: impact
+    attributes:
+      label: Guvenlik veya uyumluluk etkisi
+      description: Gerekliyse root boundary, read-only, transport veya istemci uyumlulugu etkilerini belirtin.

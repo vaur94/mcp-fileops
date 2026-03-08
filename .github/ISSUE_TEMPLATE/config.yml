@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reports
+    url: https://github.com/vaur94/mcp-fileops/security
+    about: Report security issues privately through GitHub Security.
+  - name: English documentation
+    url: https://github.com/vaur94/mcp-fileops/blob/main/docs/README.md
+    about: Start with the English documentation index.
+  - name: Turkce dokumantasyon
+    url: https://github.com/vaur94/mcp-fileops/blob/main/docs/README.tr.md
+    about: Turkce dokumantasyon ana sayfasindan baslayin.
