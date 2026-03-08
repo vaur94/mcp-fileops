@@ -2,7 +2,7 @@
 
 `mcp-fileops` is a standalone MCP server project for high-value file and directory workflows used by AI coding agents in real repositories.
 
-Status: pre-implementation. This repository currently contains decision artifacts only. Tool implementation has not started yet.
+Status: v1 tool surface implemented. The repository now includes the full planned stdio tool set, shared security/filesystem services, unit/integration/protocol coverage, and a GitHub Actions CI workflow.
 
 ## Foundation
 
@@ -51,14 +51,37 @@ Explicitly out of scope for the first implementation pass:
 - [Tool Inventory](./docs/tools.md)
 - [Configuration](./docs/config.md)
 - [Security Model](./docs/security.md)
+- [mcpbase Compatibility](./docs/mcpbase-compatibility.md)
 - [Execution Plan](./docs/plan.md)
+- [First Vertical Slice](./docs/slices/0001-get-path-info.md)
 - [Decision 0001](./docs/decisions/0001-foundation-and-scope.md)
+
+## Implemented tools
+
+- `list_directory`
+- `get_path_info`
+- `read_file`
+- `read_files`
+- `find_paths`
+- `search_text`
+- `write_file`
+- `replace_in_file`
+- `apply_batch_edits`
+- `create_directory`
+- `move_path`
+
+## Verification surface
+
+- `npm run ci:check`
+- `.github/workflows/ci.yml`
+- unit tests for security, filesystem services, and tool definitions
+- integration tests for runtime execution and read-only mode rejection
+- stdio protocol tests that list and exercise the full v1 tool surface
 
 ## Next step
 
-The next implementation slice should create the repository bootstrap only:
+The next practical scope after v1 is selective expansion rather than more core bootstrap work:
 
-1. package metadata and scripts
-2. TypeScript, ESLint, Prettier, and test scaffolding
-3. config schema shell
-4. no tool logic yet
+1. refine edge-case semantics for existing tools only when production usage reveals gaps
+2. document or add deferred destructive tools like `delete_path` and `copy_path` only with recovery semantics
+3. evaluate release automation once publish intent is active
