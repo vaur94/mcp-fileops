@@ -7,7 +7,7 @@
 - expose machine-readable output whenever practical
 - keep destructive operations narrow and explicit
 
-## v1 candidate tools
+## v1 implemented tools
 
 ### Read-only tools
 
@@ -36,6 +36,13 @@
   - create one directory path safely
 - `move_path`
   - rename or move a file/directory within allowed roots
+
+## Current implementation notes
+
+- all v1 tools are registered in `src/tools/index.ts`
+- every tool returns human-readable summary text plus structured content
+- mutating tools enforce `security.readOnly` and per-tool feature flags
+- protocol coverage exercises the full v1 tool surface over stdio
 
 ## Deferred tools
 

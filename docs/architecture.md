@@ -14,20 +14,21 @@ Build a thin MCP server focused on file operations for coding agents while deleg
 
 ## Architectural shape
 
-Expected source layout once implementation starts:
+Current source layout:
 
 ```text
 src/
   config/
+  errors/
   security/
   services/filesystem/
   tools/
   index.ts
 tests/
-  fixtures/
   integration/
   protocol/
   unit/
+.github/workflows/
 examples/
 docs/
 ```
@@ -39,6 +40,16 @@ docs/
 - `src/services/filesystem`: low-level filesystem primitives and safe wrappers
 - `src/tools`: MCP tool definitions only
 - `src/index.ts`: bootstrap and runtime wiring
+
+## Current baseline
+
+- bootstrap wiring is implemented in `src/index.ts`
+- config schema/defaults are implemented in `src/config/`
+- domain errors live in `src/errors/`
+- security helpers and mutation guards live in `src/security/`
+- filesystem primitives and per-tool services live in `src/services/filesystem/`
+- `src/tools/index.ts` registers the full v1 tool surface
+- stdio protocol connectivity covers the full tool list and representative calls
 
 ## Explicit non-goals
 

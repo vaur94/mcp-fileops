@@ -1,17 +1,17 @@
 # Configuration Contract
 
-This is the planned runtime surface for v1. It should be implemented before tool code expands.
+This document describes the current runtime config surface for the implemented v1 server.
 
-## Required concepts
+## Current config concepts
 
 - server identity
 - logging settings
 - root allowlist
 - read-only mode
 - size and search limits
-- optional telemetry
+- mutating-tool feature flags
 
-## Planned config shape
+## Current config shape
 
 ```json
 {
@@ -21,8 +21,7 @@ This is the planned runtime surface for v1. It should be implemented before tool
   },
   "logging": {
     "level": "info",
-    "includeTimestamp": true,
-    "redactFileContent": true
+    "includeTimestamp": true
   },
   "security": {
     "readOnly": false,
@@ -37,6 +36,7 @@ This is the planned runtime surface for v1. It should be implemented before tool
     "writeFile": true,
     "replaceInFile": true,
     "applyBatchEdits": true,
+    "createDirectory": true,
     "movePath": true
   }
 }
@@ -44,14 +44,14 @@ This is the planned runtime surface for v1. It should be implemented before tool
 
 ## Environment and CLI policy
 
-Planned precedence:
+Implemented precedence:
 
 1. defaults
 2. config file
 3. environment variables
 4. CLI overrides
 
-Planned environment prefix:
+Implemented environment prefix:
 
 - `MCP_FILEOPS_`
 
@@ -64,4 +64,5 @@ Examples:
 
 - whether `roots` should allow named profiles or remain a flat list
 - whether `maxFileBytes` should vary between read and write operations
-- whether feature flags should exist for read-only tools or only mutating tools
+- whether feature flags should eventually exist for read-only tools or remain mutating-only
+- whether telemetry should remain runtime-injected only or gain a local config surface later
