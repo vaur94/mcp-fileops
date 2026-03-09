@@ -6,8 +6,16 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/vaur94/mcp-fileops#readme",
+  "bugs": {
+    "url": "https://github.com/vaur94/mcp-fileops/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaur94/mcp-fileops.git"
+  },
   "bin": {
-    "mcp-fileops": "./bin/cli.js"
+    "mcp-fileops": "bin/cli.js"
   },
   "exports": {
     ".": {
@@ -24,6 +32,9 @@
     "LICENSE",
     "CHANGELOG.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=22.14.0",
     "npm": ">=10.0.0"
@@ -52,6 +63,7 @@
     "test:protocol": "npm run build && vitest run tests/protocol",
     "test:coverage": "vitest run tests/unit tests/integration --coverage",
     "ci:check": "npm run format:check && npm run lint && npm run typecheck && npm run test:coverage && npm run test:protocol",
+    "pack:dry-run": "npm pack --dry-run",
     "prepack": "npm run build"
   },
   "dependencies": {
