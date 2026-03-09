@@ -13,6 +13,7 @@ The format follows Keep a Changelog style, adapted for this repository.
 - bilingual English/Turkish documentation system
 - dedicated docs indexes for both languages
 - complete onboarding and integration documentation
+- npm trusted publishing workflow and first-publish release guidance
 
 ### Changed
 

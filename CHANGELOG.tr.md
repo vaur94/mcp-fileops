@@ -11,6 +11,7 @@ Bu dosya projedeki onemli degisiklikleri takip eder.
 - Ingilizce ve Turkce cift dilli dokumantasyon sistemi
 - iki dil icin ayrik dokumantasyon giris sayfalari
 - tam onboarding ve entegrasyon dokumani
+- npm trusted publishing workflow'u ve ilk publish rehberi
 
 ### Changed
 
