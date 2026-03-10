@@ -17,3 +17,5 @@ Bu dosya projedeki onemli degisiklikleri takip eder.
 
 - depo dokumantasyonu `docs/en/` ve `docs/tr/` altinda yeniden duzenlendi
 - uygulama ici planlama artefaktlari kullanici dokumantasyonundan kaldirildi
+
+Son guncelleme: 2026-03-10

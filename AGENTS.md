@@ -85,3 +85,5 @@ npm run ci:check
 - `bin/cli.js` requires the built bundle in `dist/index.js`
 - `.github/workflows/ci.yml` runs `npm run ci:check`
 - documentation is intentionally bilingual; English and Turkish files should stay aligned
+
+Last updated: 2026-03-10

@@ -1,5 +1,7 @@
 # 🔌 Entegrasyonlar
 
+English version: [docs/en/integrations.md](../en/integrations.md)
+
 ## Ortak calistirma modeli
 
 Her MCP istemcisi ayni temel girdilere ihtiyac duyar:
@@ -88,3 +90,5 @@ Istemci baglantisi tamamlandiktan sonra su uc noktalar kontrol edilmelidir:
 - arac listesini gorebilmeli
 - `get_path_info` cagrisi yapabilmeli
 - tanimli root sinirlari zorlanmali
+
+Son guncelleme: 2026-03-10

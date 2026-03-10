@@ -24,3 +24,5 @@ Thanks for contributing to `mcp-fileops`.
 - [Turkish development guide](./docs/tr/development.md)
 - [English testing guide](./docs/en/testing.md)
 - [Turkish testing guide](./docs/tr/testing.md)
+
+Last updated: 2026-03-10

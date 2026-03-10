@@ -1,5 +1,7 @@
 # 🔌 Integrations
 
+Türkçe sürüm: [docs/tr/integrations.md](../tr/integrations.md)
+
 ## Common launch model
 
 Every MCP client needs the same core inputs:
@@ -88,3 +90,5 @@ After wiring a client, verify that it can:
 - list the server tools
 - call `get_path_info`
 - enforce the configured root boundaries
+
+Last updated: 2026-03-10

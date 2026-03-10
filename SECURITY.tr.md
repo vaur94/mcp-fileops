@@ -31,3 +31,5 @@ Onerilen surec:
 4. exploitable bulgular icin maintainer yanit vermeden public issue acmayin
 
 Private reporting gecici olarak kullanilamiyorsa, maintainer ile GitHub uzerinden iletisime gecin ve bir duzeltme veya azaltma hazirlanana kadar exploit detaylarini herkese acik paylasmayin.
+
+Son guncelleme: 2026-03-10

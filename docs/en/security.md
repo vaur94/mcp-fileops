@@ -1,5 +1,7 @@
 # 🛡️ Security Model
 
+Türkçe sürüm: [docs/tr/security.md](../tr/security.md)
+
 ## Core rules
 
 - deny by default
@@ -38,3 +40,5 @@
 - logs go to stderr
 - logs can include metadata, timing, and counts
 - logs should not include raw file contents by default
+
+Last updated: 2026-03-10

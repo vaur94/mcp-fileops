@@ -1,5 +1,7 @@
 # ⚙️ Yapilandirma
 
+English version: [docs/en/configuration.md](../en/configuration.md)
+
 ## Varsayilanlar
 
 Runtime varsayilan config degerleri `src/config/defaults.ts` icinde tanimlidir.
@@ -68,3 +70,5 @@ Ornek environment degerleri:
 ## Ornek config
 
 Kopyalanabilir bir ornek icin `examples/mcp-fileops.config.json` dosyasina bakin.
+
+Son guncelleme: 2026-03-10

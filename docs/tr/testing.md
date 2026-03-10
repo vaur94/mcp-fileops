@@ -1,5 +1,7 @@
 # 🧪 Testler
 
+English version: [docs/en/testing.md](../en/testing.md)
+
 ## Test katmanlari
 
 - `tests/unit`: servis, politika, config ve arac sekli davranislari
@@ -32,3 +34,5 @@ npm run ci:check
 2. `npm run ci:check`
 
 CI akisi, `main` branch push ve pull request olaylarinda tetiklenir.
+
+Son guncelleme: 2026-03-10

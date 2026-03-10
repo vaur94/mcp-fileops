@@ -1,5 +1,7 @@
 # 🏗️ Architecture
 
+Türkçe sürüm: [docs/tr/architecture.md](../tr/architecture.md)
+
 ## Goal
 
 `mcp-fileops` keeps MCP runtime concerns delegated to `@vaur94/mcpbase` while implementing project-specific filesystem safety, tool behavior, and testing inside this repository.
@@ -44,3 +46,5 @@ tests/
 - keep filesystem services independent of MCP tool wrappers
 - keep v1 transport limited to `stdio`
 - do not add shell execution into the server
+
+Last updated: 2026-03-10

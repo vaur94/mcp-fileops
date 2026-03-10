@@ -1,3 +1,5 @@
+> [English](./pull_request_template.md) | Turkce
+
 ## Ozet
 
 - ne degisti?
@@ -17,3 +19,5 @@
 - [ ] gerekliyse Ingilizce ve Turkce dokumanlar birlikte guncellendi
 - [ ] guvenlik etkileri degerlendirildi
 - [ ] breaking change varsa acikca belirtildi
+
+Son guncelleme: 2026-03-10

@@ -24,3 +24,5 @@
 - [Turkce gelistirme rehberi](./docs/tr/development.md)
 - [English testing guide](./docs/en/testing.md)
 - [Turkce test rehberi](./docs/tr/testing.md)
+
+Son guncelleme: 2026-03-10

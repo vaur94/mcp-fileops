@@ -81,6 +81,9 @@ English:
 - [Testing](./docs/en/testing.md)
 - [Development](./docs/en/development.md)
 - [mcpbase compatibility](./docs/en/mcpbase-compatibility.md)
+- [PR and branching](./docs/en/pr-and-branching.md)
+- [Release process](./docs/en/release-process.md)
+- [Troubleshooting](./docs/en/troubleshooting.md)
 
 Turkce:
 
@@ -94,6 +97,9 @@ Turkce:
 - [Testler](./docs/tr/testing.md)
 - [Gelistirme](./docs/tr/development.md)
 - [mcpbase uyumlulugu](./docs/tr/mcpbase-compatibility.md)
+- [PR ve branching](./docs/tr/pr-and-branching.md)
+- [Release sureci](./docs/tr/release-process.md)
+- [Sorun giderme](./docs/tr/troubleshooting.md)
 
 ## 🧪 Dogrulama
 
@@ -114,6 +120,13 @@ CI, `.github/workflows/ci.yml` uzerinden `main` branch push ve pull request olay
 
 - [Guvenlik politikasi](./SECURITY.tr.md)
 - [Katki rehberi](./CONTRIBUTING.tr.md)
+- [Destek](./SUPPORT.tr.md)
 - [Surum politikasi](./RELEASE.tr.md)
 - [Degisiklik gunlugu](./CHANGELOG.tr.md)
 - [Ajan baglam dokumani](./AGENTS.tr.md)
+
+## 📄 Lisans
+
+Bu proje MIT License altinda dagitilir. Tam metin icin `LICENSE` dosyasina bakin.
+
+Son guncelleme: 2026-03-10

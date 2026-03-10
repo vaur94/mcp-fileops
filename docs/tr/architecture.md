@@ -1,5 +1,7 @@
 # 🏗️ Mimari
 
+English version: [docs/en/architecture.md](../en/architecture.md)
+
 ## Amac
 
 `mcp-fileops`, MCP runtime sorumluluklarini `@vaur94/mcpbase` paketine birakir; proje ozelindeki dosya sistemi guvenligi, arac davranislari ve testler ise bu depoda yer alir.
@@ -44,3 +46,5 @@ tests/
 - filesystem servisleri MCP arac wrapperlarindan bagimsiz kalmalidir
 - v1 transport kapsami yalnizca `stdio` olmalidir
 - sunucuya shell execution eklenmemelidir
+
+Son guncelleme: 2026-03-10

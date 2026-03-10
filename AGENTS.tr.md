@@ -87,3 +87,5 @@ npm run ci:check
 - `bin/cli.js`, `dist/index.js` build ciktisini bekler
 - `.github/workflows/ci.yml`, `npm run ci:check` komutunu calistirir
 - dokumantasyon bilerek iki dillidir; Ingilizce ve Turkce dosyalar birlikte guncel tutulmalidir
+
+Son guncelleme: 2026-03-10

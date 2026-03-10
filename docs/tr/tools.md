@@ -1,5 +1,7 @@
 # 🧰 Araclar
 
+English version: [docs/en/tools.md](../en/tools.md)
+
 ## Uygulanan v1 araclari
 
 ### Salt-okunur
@@ -38,3 +40,5 @@ Bilerek ertelenen alanlar:
 - `copy_path`
 - AST-aware kod duzenleme
 - yapisal JSON veya YAML editorleri
+
+Son guncelleme: 2026-03-10

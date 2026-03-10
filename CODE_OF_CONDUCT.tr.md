@@ -44,3 +44,5 @@ Tum bildirimler hizli ve adil sekilde incelenir.
 
 Bu davranis kurallari, Contributor Covenant 2.1 surumunden uyarlanmistir:
 https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
+
+Son guncelleme: 2026-03-10

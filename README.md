@@ -81,6 +81,9 @@ English:
 - [Testing](./docs/en/testing.md)
 - [Development](./docs/en/development.md)
 - [mcpbase compatibility](./docs/en/mcpbase-compatibility.md)
+- [PR and branching](./docs/en/pr-and-branching.md)
+- [Release process](./docs/en/release-process.md)
+- [Troubleshooting](./docs/en/troubleshooting.md)
 
 Turkish:
 
@@ -94,6 +97,9 @@ Turkish:
 - [Testler](./docs/tr/testing.md)
 - [Gelistirme](./docs/tr/development.md)
 - [mcpbase uyumlulugu](./docs/tr/mcpbase-compatibility.md)
+- [PR ve branching](./docs/tr/pr-and-branching.md)
+- [Release sureci](./docs/tr/release-process.md)
+- [Sorun giderme](./docs/tr/troubleshooting.md)
 
 ## 🧪 Verification
 
@@ -114,6 +120,13 @@ CI runs on pushes to `main` and on pull requests via `.github/workflows/ci.yml`.
 
 - [Security policy](./SECURITY.md)
 - [Contributing guide](./CONTRIBUTING.md)
+- [Support](./SUPPORT.md)
 - [Release notes policy](./RELEASE.md)
 - [Changelog](./CHANGELOG.md)
 - [Agent context](./AGENTS.md)
+
+## 📄 License
+
+This project is licensed under the MIT License. See `LICENSE` for the full text.
+
+Last updated: 2026-03-10

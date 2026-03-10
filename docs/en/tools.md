@@ -1,5 +1,7 @@
 # 🧰 Tools
 
+Türkçe sürüm: [docs/tr/tools.md](../tr/tools.md)
+
 ## Implemented v1 tools
 
 ### Read-only
@@ -38,3 +40,5 @@ Deferred on purpose:
 - `copy_path`
 - AST-aware code editing
 - structured JSON or YAML editors
+
+Last updated: 2026-03-10

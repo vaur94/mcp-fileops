@@ -1,5 +1,7 @@
 # 🚀 Getting Started
 
+Türkçe sürüm: [docs/tr/getting-started.md](../tr/getting-started.md)
+
 ## Requirements
 
 - Node.js `>=22.14.0`
@@ -36,3 +38,5 @@ node /absolute/path/to/mcp-fileops/bin/cli.js --config /absolute/path/to/mcp-fil
 - [Configuration](./configuration.md)
 - [Integrations](./integrations.md)
 - [Security](./security.md)
+
+Last updated: 2026-03-10

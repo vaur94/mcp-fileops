@@ -1,5 +1,7 @@
 # 🧪 Testing
 
+Türkçe sürüm: [docs/tr/testing.md](../tr/testing.md)
+
 ## Test layers
 
 - `tests/unit`: service, policy, config, and tool-shape behavior
@@ -32,3 +34,5 @@ npm run ci:check
 2. `npm run ci:check`
 
 The CI workflow is triggered on pushes to `main` and on pull requests.
+
+Last updated: 2026-03-10

@@ -1,3 +1,5 @@
+> English | [Turkce](./pull_request_template.tr.md)
+
 ## Summary
 
 - what changed?
@@ -19,3 +21,5 @@
 - [ ] breaking changes called out clearly
 
 For a Turkish version of this template, see `.github/pull_request_template.tr.md`.
+
+Last updated: 2026-03-10

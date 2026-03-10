@@ -1,3 +1,5 @@
+> [English](./pull_request_template.md) | Turkce
+
 ## Ozet
 
 - ne degisti?
@@ -19,3 +21,5 @@
 - [ ] breaking change varsa acikca belirtildi
 
 Bu template'in English surumu icin `.github/pull_request_template.md` dosyasina bakin.
+
+Son guncelleme: 2026-03-10

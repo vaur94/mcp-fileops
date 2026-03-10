@@ -19,3 +19,5 @@ The format follows Keep a Changelog style, adapted for this repository.
 
 - restructured repository documentation into `docs/en/` and `docs/tr/`
 - removed implementation-only planning artifacts from user-facing docs
+
+Last updated: 2026-03-10

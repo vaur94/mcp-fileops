@@ -1,5 +1,7 @@
 # 🛡️ Guvenlik Modeli
 
+English version: [docs/en/security.md](../en/security.md)
+
 ## Temel kurallar
 
 - varsayilan olarak kapali
@@ -38,3 +40,5 @@
 - loglar stderr uzerinden gider
 - metadata, sure ve sayim bilgileri loglanabilir
 - varsayilan olarak ham dosya icerigi loglanmamali
+
+Son guncelleme: 2026-03-10

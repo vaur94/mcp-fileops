@@ -1,5 +1,7 @@
 # 🧩 mcpbase Uyumlulugu
 
+English version: [docs/en/mcpbase-compatibility.md](../en/mcpbase-compatibility.md)
+
 ## Uyumluluk hedefi
 
 `mcp-fileops`, yayinlanmis npm paketi olan `@vaur94/mcpbase@1.3.0` surumunu hedef alarak implemente edilmistir.
@@ -17,3 +19,5 @@
 - kopyalanmis kaynak yerine paket exportlari kullanilmali
 - GitHub tarafindaki upstream icerigi, yayinli paketle dogrulanmadikca sadece referans kabul edilmeli
 - gelecekteki uyumluluk guncellemeleri acik sekilde dokumante edilmeli
+
+Son guncelleme: 2026-03-10

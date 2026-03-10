@@ -1,5 +1,7 @@
 # 🛠️ Gelistirme
 
+English version: [docs/en/development.md](../en/development.md)
+
 ## Lokal calisma akisi
 
 ```bash
@@ -30,3 +32,5 @@ npm run ci:check
 - `src/config/defaults.ts`
 - `src/tools/index.ts`
 - `examples/mcp-fileops.config.json`
+
+Son guncelleme: 2026-03-10

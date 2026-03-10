@@ -31,3 +31,5 @@ Recommended process:
 4. avoid opening a public issue for exploitable findings before maintainers respond
 
 If private reporting is temporarily unavailable, contact the maintainer through GitHub and avoid publishing exploit details until a fix or mitigation exists.
+
+Last updated: 2026-03-10

@@ -16,6 +16,9 @@ This directory contains the complete product documentation for `mcp-fileops`, sp
 - [Testing](./en/testing.md)
 - [Development](./en/development.md)
 - [mcpbase compatibility](./en/mcpbase-compatibility.md)
+- [PR and branching](./en/pr-and-branching.md)
+- [Release process](./en/release-process.md)
+- [Troubleshooting](./en/troubleshooting.md)
 
 ## Turkish docs
 
@@ -29,3 +32,8 @@ This directory contains the complete product documentation for `mcp-fileops`, sp
 - [Testler](./tr/testing.md)
 - [Gelistirme](./tr/development.md)
 - [mcpbase uyumlulugu](./tr/mcpbase-compatibility.md)
+- [PR ve branching](./tr/pr-and-branching.md)
+- [Release sureci](./tr/release-process.md)
+- [Sorun giderme](./tr/troubleshooting.md)
+
+Last updated: 2026-03-10

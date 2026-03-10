@@ -1,3 +1,5 @@
+> English | [Turkce](./pull_request_template.tr.md)
+
 ## Summary
 
 - what changed?
@@ -17,3 +19,5 @@
 - [ ] English and Turkish docs kept in sync where relevant
 - [ ] security implications considered
 - [ ] breaking changes called out clearly
+
+Last updated: 2026-03-10

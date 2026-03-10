@@ -1,5 +1,7 @@
 # 🚀 Baslangic
 
+English version: [docs/en/getting-started.md](../en/getting-started.md)
+
 ## Gereksinimler
 
 - Node.js `>=22.14.0`
@@ -36,3 +38,5 @@ node /absolute/path/to/mcp-fileops/bin/cli.js --config /absolute/path/to/mcp-fil
 - [Yapilandirma](./configuration.md)
 - [Entegrasyonlar](./integrations.md)
 - [Guvenlik](./security.md)
+
+Son guncelleme: 2026-03-10

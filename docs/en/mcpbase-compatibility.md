@@ -1,5 +1,7 @@
 # 🧩 mcpbase Compatibility
 
+Türkçe sürüm: [docs/tr/mcpbase-compatibility.md](../tr/mcpbase-compatibility.md)
+
 ## Compatibility target
 
 `mcp-fileops` is implemented against the published npm package `@vaur94/mcpbase@1.3.0`.
@@ -17,3 +19,5 @@
 - rely on package exports, not copied source
 - treat GitHub-only upstream material as reference unless it is verified against the published package version
 - document any future compatibility upgrade explicitly
+
+Last updated: 2026-03-10

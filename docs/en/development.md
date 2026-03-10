@@ -1,5 +1,7 @@
 # 🛠️ Development
 
+Türkçe sürüm: [docs/tr/development.md](../tr/development.md)
+
 ## Local workflow
 
 ```bash
@@ -30,3 +32,5 @@ npm run ci:check
 - `src/config/defaults.ts`
 - `src/tools/index.ts`
 - `examples/mcp-fileops.config.json`
+
+Last updated: 2026-03-10

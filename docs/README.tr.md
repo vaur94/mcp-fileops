@@ -16,6 +16,9 @@ Bu dizin, `mcp-fileops` icin tum urun dokumantasyonunu diller bazinda net bir se
 - [Testing](./en/testing.md)
 - [Development](./en/development.md)
 - [mcpbase compatibility](./en/mcpbase-compatibility.md)
+- [PR and branching](./en/pr-and-branching.md)
+- [Release process](./en/release-process.md)
+- [Troubleshooting](./en/troubleshooting.md)
 
 ## Turkce docs
 
@@ -29,3 +32,8 @@ Bu dizin, `mcp-fileops` icin tum urun dokumantasyonunu diller bazinda net bir se
 - [Testler](./tr/testing.md)
 - [Gelistirme](./tr/development.md)
 - [mcpbase uyumlulugu](./tr/mcpbase-compatibility.md)
+- [PR ve branching](./tr/pr-and-branching.md)
+- [Release sureci](./tr/release-process.md)
+- [Sorun giderme](./tr/troubleshooting.md)
+
+Son guncelleme: 2026-03-10

@@ -14,14 +14,16 @@
 
 ## First publish requirements
 
-The package is not yet present on npm, so the first release cannot use trusted publishing alone.
+The first manual publish has already been completed for this repository. The package now exists on npm, and trusted publishing is the default path for later releases.
+
+For reference, the initial bootstrap sequence was:
 
 1. authenticate locally with your npm account
 2. run `npm run ci:check`
 3. run `npm publish --access public`
 4. confirm the package exists with `npm view mcp-fileops version name repository homepage --json`
 
-After the first publish succeeds, create the npm trusted publisher mapping for:
+The trusted publisher mapping is configured for:
 
 - owner: `vaur94`
 - repository: `mcp-fileops`
@@ -66,3 +68,5 @@ For implementation details, see:
 
 - [English development guide](./docs/en/development.md)
 - [Turkish development guide](./docs/tr/development.md)
+
+Last updated: 2026-03-10

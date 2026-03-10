@@ -1,5 +1,7 @@
 # ⚙️ Configuration
 
+Türkçe sürüm: [docs/tr/configuration.md](../tr/configuration.md)
+
 ## Defaults
 
 The runtime default config is defined in `src/config/defaults.ts`.
@@ -68,3 +70,5 @@ Example environment values:
 ## Example config
 
 See `examples/mcp-fileops.config.json` for a ready-to-copy example.
+
+Last updated: 2026-03-10

@@ -14,14 +14,16 @@
 
 ## Ilk publish gereksinimleri
 
-Paket henuz npm'de olmadigi icin ilk surum trusted publishing ile tek basina tamamlanamaz.
+Bu depo icin ilk manuel publish artik tamamlanmistir. Paket npm'de vardir ve sonraki surumler icin varsayilan yol trusted publishing'dir.
 
-1. npm hesabi ile lokal olarak kimlik dogrulayın
+Referans olarak ilk bootstrap akisi su sekildeydi:
+
+1. npm hesabi ile lokal olarak kimlik dogrulayin
 2. `npm run ci:check` calistirin
 3. `npm publish --access public` calistirin
 4. `npm view mcp-fileops version name repository homepage --json` ile yayini dogrulayin
 
-Ilk publish basarili olduktan sonra npm trusted publisher mapping su sekilde olusturulmalidir:
+Trusted publisher mapping su degerlerle tanimlidir:
 
 - owner: `vaur94`
 - repository: `mcp-fileops`
@@ -66,3 +68,5 @@ Detaylar icin:
 
 - [English development guide](./docs/en/development.md)
 - [Turkce gelistirme rehberi](./docs/tr/development.md)
+
+Son guncelleme: 2026-03-10
